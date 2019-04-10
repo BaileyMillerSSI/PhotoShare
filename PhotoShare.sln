@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareApi", "ShareApi\ShareApi.csproj", "{4681C38D-530A-46AE-897C-1101ADE5E101}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5BD3F459-80FB-4965-8567-8888930BCC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareWeb", "ShareWeb\ShareWeb.csproj", "{E0EDC4C9-8AB9-4D35-99FE-FAB71834C4F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4681C38D-530A-46AE-897C-1101ADE5E101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4681C38D-530A-46AE-897C-1101ADE5E101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4681C38D-530A-46AE-897C-1101ADE5E101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4681C38D-530A-46AE-897C-1101ADE5E101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD3F459-80FB-4965-8567-8888930BCC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD3F459-80FB-4965-8567-8888930BCC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD3F459-80FB-4965-8567-8888930BCC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD3F459-80FB-4965-8567-8888930BCC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EDC4C9-8AB9-4D35-99FE-FAB71834C4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EDC4C9-8AB9-4D35-99FE-FAB71834C4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EDC4C9-8AB9-4D35-99FE-FAB71834C4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EDC4C9-8AB9-4D35-99FE-FAB71834C4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70F114DC-9A45-4EE5-A823-0CF0C3BCC364}
+	EndGlobalSection
+EndGlobal

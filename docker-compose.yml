@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+
+  shareweb:
+    image: ${DOCKER_REGISTRY-}shareweb
+    build:
+      context: ./ShareWeb
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - shareapi
+
+  shareapi:
+    image: ${DOCKER_REGISTRY-}shareapi
+    build:
+      context: .
+      dockerfile: ShareApi/Dockerfile
+    depends_on:
+      - sharedb
+
+  sharedb:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - ACCEPT_EULA='Y'
+      - SA_PASSWORD='VERY_StrongPassword!@wow'
